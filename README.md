@@ -1,24 +1,28 @@
 # Python_Projects
-# Number Guessing Game
+# Analysis_of_Numbers_List
 
-This is a simple number guessing game implemented in Python. The program generates a random number between 1 and 100, and the player needs to guess the number.
+This Python program analyzes a list of numbers, identifying even numbers and calculating the sum of odd numbers.
 
-## Instructions
+Enter the values for the list when prompted. Separate the values with commas.
 
-1. Run the program in a Python environment.
-2. The program will prompt you to enter a guessing number.
-3. If your guess is correct, the program will display "Brilliant!, You Guessed the Number Correctly."
-4. If your guess is very close (within a threshold value of 5), the program will display "Hey! , You got so close. One more time" and reveal the random number.
-5. If you enter 0, the program will display "Thank you for playing. Goodbye!" and exit.
-6. If your guess is far from the random number, the program will display "Hey! , One More time ,  Its far" and reveal the random number.
+## Program Functionality
 
-Feel free to play the game and enjoy!
+The program performs the following tasks:
 
-## Dependencies
+- Takes a list of numbers as input from the user.
+- Converts the input values into a list of integers.
+- Determines if there are any even numbers in the list.
+- Calculates the sum of the odd numbers in the list.
+- Converts the list of numbers into a tuple.
 
-This program requires Python. No additional libraries or modules are needed.
+## Results
 
-## Usage
+The program provides the following results:
 
-```python
-python Guessing_Game.py
+- If even numbers are found in the list, it displays the message "Even numbers found in the list."
+- If no even numbers are found, it displays the message "No even numbers found."
+- It shows the sum of the odd numbers in the list.
+- It displays the original list of numbers as a tuple.
+
+
+Happy coding!
